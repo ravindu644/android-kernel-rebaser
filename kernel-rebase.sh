@@ -9,7 +9,7 @@ NORMAL='\033[0m'
 PROJECT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
 # Variables
-ACK_REPO="https://android.googlesource.com/kernel/common.git"
+ACK_REPO="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git"
 OEM_KERNEL=${1}
 ACK_BRANCH=${2}
 
